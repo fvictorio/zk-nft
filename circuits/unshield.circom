@@ -11,7 +11,6 @@ template UnshieldNFT(levels) {
     signal private input pathElements[levels];
     signal private input pathIndices[levels];
     signal output nullifier;
-    signal commitment;
 
     component commitmentHasher = Poseidon(2);
     commitmentHasher.inputs[0] <== id;

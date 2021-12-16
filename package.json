@@ -7,7 +7,9 @@
     "fixed-merkle-tree": "^0.6.0",
     "fs-extra": "^10.0.0",
     "hardhat": "^2.7.1",
-    "hardhat-circom": "^1.2.0"
+    "hardhat-circom": "^1.2.0",
+    "prettier": "^2.5.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.19"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.0",

@@ -12,7 +12,6 @@ template TransferNFT(levels) {
     signal private input pathIndices[levels];
     signal output nullifier;
     signal output newCommitment;
-    signal commitment;
 
     component commitmentHasher = Poseidon(2);
     commitmentHasher.inputs[0] <== id;
